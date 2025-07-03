@@ -2,7 +2,8 @@ cff-version: 1.2.0
 message: "If you use this dataset or analysis code, please cite the following."
 title: "Kagami Study – Data Analysis Repository"
 version: 1.0-prereg
-date-released: 2025-07-03 
+doi: 10.5281/zenodo.15800990
+date-released: 2025-07-03
 authors:
   - family-names: Brandt
     given-names: T.J.

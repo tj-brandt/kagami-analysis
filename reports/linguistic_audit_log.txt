@@ -1,0 +1,10 @@
+2025-07-02 22:12:23,471 - INFO - --- Starting linguistic_audit.py (v1.3) ---
+2025-07-02 22:12:23,493 - INFO - Loaded LIWC and main datasets.
+2025-07-02 22:12:23,494 - INFO - 
+--- AUDIT 1: AFFECT & AUTHENTICITY ---
+2025-07-02 22:12:23,505 - INFO - 
+--- AUDIT 2: AFFECTIVE CONSISTENCY ---
+2025-07-02 22:12:23,509 - INFO - 
+--- AUDIT 3: STRUCTURAL ROLES ---
+2025-07-02 22:12:23,732 - INFO - Saved role contrast figure.
+2025-07-02 22:12:23,732 - INFO - --- linguistic_audit.py Complete ---

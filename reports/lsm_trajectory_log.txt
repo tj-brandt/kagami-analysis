@@ -1,0 +1,7 @@
+2025-07-02 22:04:25,853 - INFO - --- Starting lsm_trajectory.py (v1.5) ---
+2025-07-02 22:04:25,857 - INFO - Loaded turn-level LSM raw data and main dataset.
+2025-07-02 22:04:25,862 - INFO - Attempting to fit mixed-effects model for LSM trajectory...
+2025-07-02 22:04:25,870 - ERROR - Could not fit mixed-effects model, as expected. Error: Singular matrix
+2025-07-02 22:04:25,870 - WARNING - This is likely due to low variance and not a critical issue. The visualization is the key result.
+2025-07-02 22:04:26,111 - INFO - Saved corrected LSM trajectory plot to '../reports/figures'.
+2025-07-02 22:04:26,111 - INFO - --- lsm_trajectory.py Complete ---

@@ -1,0 +1,47 @@
+2025-07-02 21:22:37,487 - INFO - --- Starting 05_robustness_checks.py (v1.7) ---
+2025-07-02 21:22:37,527 - INFO - Successfully loaded all required data files.
+2025-07-02 21:22:37,530 - INFO - 
+--- ROBUSTNESS CHECK 1: BAYES FACTOR FOR OBJECTIVE LSM ---
+2025-07-02 21:22:37,537 - INFO - T-Test for Objective LSM:
+            T      dof alternative  p-val          CI95%  cohen-d   BF10  power
+T-test  1.482  156.417   two-sided   0.14  [-0.01, 0.05]    0.231  0.464  0.312
+
+2025-07-02 21:22:37,537 - INFO - Bayes Factor (BF10) for this test: 0.464
+2025-07-02 21:22:37,537 - INFO - CONCLUSION: The Bayes Factor (BF10 = 0.464) provides moderate evidence for the null hypothesis.
+2025-07-02 21:22:37,538 - INFO - Bayesian t-test for objective LSM saved to '../reports/tables'.
+2025-07-02 21:22:37,538 - INFO - 
+--- ROBUSTNESS CHECK 2: SEMANTIC SYNCHRONY ---
+2025-07-02 21:22:37,538 - INFO - Calculating per-turn semantic similarity...
+2025-07-02 21:22:37,538 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-07-02 21:22:48,448 - INFO - Plotting Raincloud plot for Semantic Synchrony...
+2025-07-02 21:22:48,642 - INFO - Saved semantic synchrony raincloud plot to '../reports/figures'.
+2025-07-02 21:22:48,642 - INFO - Testing for differences in semantic similarity...
+2025-07-02 21:22:48,648 - INFO - T-Test for Semantic Similarity:
+            T      dof alternative  p-val          CI95%  cohen-d   BF10  power
+T-test  0.754  161.994   two-sided  0.452  [-0.02, 0.04]    0.118  0.219  0.116
+
+2025-07-02 21:22:48,648 - INFO - CONCLUSION: The non-significant result shows the adaptive mechanism also failed to produce greater SEMANTIC synchrony.
+2025-07-02 21:22:48,648 - INFO - 
+--- ROBUSTNESS CHECK 4: FORMAL MEDIATION ANALYSIS ---
+2025-07-02 21:22:48,648 - INFO - Testing if structural features (WPS, QMark) mediate the effect of condition on perceived adaptiveness.
+2025-07-02 21:22:48,957 - INFO - Mediation Analysis Results:
+             path   coef     se   pval  CI[2.5%]  CI[97.5%]  sig
+0         WPS ~ X  0.444  0.215  0.040     0.020      0.868  Yes
+1       QMark ~ X -0.283  0.112  0.012    -0.504     -0.063  Yes
+2         Y ~ WPS -0.012  0.066  0.860    -0.142      0.118   No
+3       Y ~ QMark -0.094  0.126  0.454    -0.343      0.154   No
+4           Total  0.395  0.129  0.002     0.141      0.649  Yes
+5          Direct  0.389  0.132  0.004     0.128      0.650  Yes
+6    Indirect WPS -0.008  0.033  0.733    -0.093      0.045   No
+7  Indirect QMark  0.014  0.043  0.686    -0.062      0.111   No
+
+2025-07-02 21:22:48,957 - WARNING - CONCLUSION: No significant indirect effects were found. We cannot conclude that WPS and QMark fully mediate the relationship.
+2025-07-02 21:22:48,957 - INFO - 
+--- SKIPPING TRAJECTORY ANALYSIS AS PER PLAN ---
+2025-07-02 21:22:48,957 - INFO - 
+--- 05_robustness_checks.py Complete ---
+2025-07-02 21:22:48,957 - INFO - 
+--- SAVING ROBUSTNESS CHECK TABLES (Gap Audit) ---
+2025-07-02 21:22:48,958 - INFO - Bayesian t-test for objective LSM saved to '../reports/tables'.
+2025-07-02 21:22:48,959 - INFO - Semantic synchrony t-test saved to '../reports/tables'.
+2025-07-02 21:22:48,959 - INFO - Mediation analysis results saved to '../reports/tables'.

@@ -1,4 +1,5 @@
 # Data and Analysis for "Multimodal Anthropomorphism in Companion Chatbots"
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15800990.svg)](https://doi.org/10.5281/zenodo.15800990)
 
 This repository contains the de-identified data and analysis scripts for the Master's thesis project titled "Multimodal Anthropomorphism in Companion Chatbots: Examining Avatar Choice and Adaptive Language Style with Kagami," conducted at the University of Minnesota (IRB #STUDY00025677).
 
@@ -81,3 +82,10 @@ The source code for the Kagami chatbot platform used in the experiment is availa
 🔗 [tj-brandt/kagami](https://github.com/tj-brandt/kagami)
 
 Please note: the app and this analysis repo use separate licenses appropriate to their content.
+
+## Citation
+
+If you use this dataset or analysis code in your work, please cite:
+
+**Brandt, T.J.** (2025). *Kagami Study – Data Analysis Repository* (Version 1.0-prereg) [Data and Code]. Zenodo. https://doi.org/10.5281/zenodo.15800990
+

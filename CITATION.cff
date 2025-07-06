@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this dataset or analysis code, please cite the following."
+title: "Kagami Study – Data Analysis Repository"
+version: 1.0-prereg
+doi: 10.5281/zenodo.15800990
+date-released: 2025-07-03
+authors:
+  - family-names: Brandt
+    given-names: T.J.
+    orcid: https://orcid.org/0009-0000-8294-6235
+repository-code: https://github.com/tj-brandt/kagami-analysis
+license: CC-BY-NC-SA-4.0
+keywords:
+  - chatbot
+  - anthropomorphism
+  - language style matching
+  - human-computer interaction
+  - social computing

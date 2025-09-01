@@ -1,0 +1,10 @@
+2025-09-01 15:43:17,632 - INFO - --- Starting power_sensitivity.py ---
+2025-09-01 15:43:17,632 - INFO - 
+Running post-hoc sensitivity analysis for ANOVA...
+2025-09-01 15:43:17,633 - INFO - Parameters: N=162, groups=6, alpha=0.05, power=0.8
+2025-09-01 15:43:17,634 - INFO - 
+--- Results ---
+2025-09-01 15:43:17,634 - INFO - With N=162, the study had 80% power to detect an overall effect size of f ≈ 0.286, which corresponds to a partial eta-squared (η²p) of ≈ 0.076.
+2025-09-01 15:43:17,636 - INFO - Sensitivity analysis results saved to: ../reports/tables/table_power_sensitivity_analysis.csv
+2025-09-01 15:43:17,636 - INFO - 
+--- power_sensitivity.py Complete ---

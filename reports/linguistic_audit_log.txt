@@ -1,0 +1,10 @@
+2025-09-01 15:43:23,814 - INFO - --- Starting linguistic_audit.py ---
+2025-09-01 15:43:23,819 - INFO - Successfully loaded main dataset and derived chat metrics.
+2025-09-01 15:43:23,820 - INFO - 
+--- AUDIT 1: AFFECTIVE & SOCIAL LANGUAGE ---
+2025-09-01 15:43:23,828 - INFO - Affective Language Audit Results:
+2025-09-01 15:43:23,833 - INFO - 
+--- AUDIT 2: STRUCTURAL LANGUAGE ROLES ---
+2025-09-01 15:43:23,850 - INFO - Structural Language Audit Results:
+2025-09-01 15:43:23,855 - INFO - 
+--- linguistic_audit.py Complete ---

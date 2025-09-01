@@ -1,0 +1,22 @@
+2025-09-01 15:43:20,393 - INFO - --- Starting content_analysis.py ---
+2025-09-01 15:43:20,395 - INFO - Loaded base dataset (N=162) and bins (N=162).
+2025-09-01 15:43:20,397 - INFO - Successfully merged data. Final N=162.
+2025-09-01 15:43:20,397 - INFO - 
+--- Running Statistical Analyses ---
+2025-09-01 15:43:20,401 - INFO - Avatar × Bin Chi-square Test: χ²(8) = 17.06, p = 0.0295
+2025-09-01 15:43:20,407 - INFO - 
+ANOVA Results (Rapport by Bin):
+      Source       SS   DF      MS       F   p-unc     np2
+0  bin_label   8.2347    4  2.0587  3.5478  0.0084  0.0829
+1     Within  91.1017  157  0.5803     NaN     NaN     NaN
+
+2025-09-01 15:43:20,407 - INFO - 
+--- Generating Final Figures ---
+2025-09-01 15:43:20,407 - INFO - Generating final version of Figure 5: Bin Prevalence...
+2025-09-01 15:43:20,627 - INFO - Saved final Figure 5 to: ../reports/figures/Figure_5_Bin_Prevalence.png
+2025-09-01 15:43:20,627 - INFO - Generating final version of Figure 6: Standardized Residuals...
+2025-09-01 15:43:20,770 - INFO - Saved final Figure 6 to: ../reports/figures/Figure_6_Residuals_Heatmap.png
+2025-09-01 15:43:20,770 - INFO - Generating final version of Figure 7: Rapport by Bin...
+2025-09-01 15:43:20,909 - INFO - Saved final Figure 7 to: ../reports/figures/Figure_7_Rapport_by_Bin.png
+2025-09-01 15:43:20,910 - INFO - 
+--- content_analysis.py Complete ---

@@ -1,0 +1,26 @@
+2025-09-01 15:43:24,976 - INFO - --- Starting robustness_checks.py ---
+2025-09-01 15:43:24,981 - INFO - Successfully loaded all required public datasets.
+2025-09-01 15:43:24,985 - INFO - 
+--- ROBUSTNESS CHECK 1: BAYES FACTOR FOR OBJECTIVE LSM ---
+2025-09-01 15:43:24,987 - INFO - Bayes Factor (BF10) for Objective LSM t-test: 0.452. Values < 1 support the null.
+2025-09-01 15:43:24,988 - INFO - 
+--- ROBUSTNESS CHECK 2: FORMAL MEDIATION ANALYSIS (PARADOX) ---
+2025-09-01 15:43:25,071 - INFO - Mediation Analysis Results (Paradox):
+             path   coef     se   pval  CI[2.5%]  CI[97.5%]  sig
+0         WPS ~ X  0.093  0.420  0.825    -0.737      0.923   No
+1       QMark ~ X -0.071  0.148  0.633    -0.364      0.222   No
+2         Y ~ WPS  0.011  0.026  0.663    -0.040      0.062   No
+3       Y ~ QMark -0.027  0.073  0.709    -0.171      0.116   No
+4           Total  0.395  0.129  0.002     0.141      0.649  Yes
+5          Direct  0.393  0.129  0.003     0.137      0.648  Yes
+6    Indirect WPS  0.001  0.013  0.932    -0.016      0.044   No
+7  Indirect QMark  0.001  0.010  0.876    -0.010      0.035   No
+
+2025-09-01 15:43:25,072 - INFO - 
+--- ROBUSTNESS CHECK 3: ANCOVA WITH MESSAGE COUNT COVARIATE ---
+2025-09-01 15:43:25,331 - INFO - ANCOVA results for Avatar -> Rapport, controlling for Word Count:
+2025-09-01 15:43:25,334 - INFO - 
+--- ROBUSTNESS CHECK 4: FDR CORRECTION FOR DV-BY-BIN ANALYSES ---
+2025-09-01 15:43:25,345 - INFO - ANOVA Results for All DVs by Content Bin (FDR Corrected):
+2025-09-01 15:43:25,347 - INFO - 
+--- robustness_checks.py Complete ---

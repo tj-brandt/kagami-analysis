@@ -1,0 +1,13 @@
+# Ignore all raw data folders and their contents
+data/raw/
+data/processed/
+
+# Ignore sensitive files by name if they ever appear in the root
+prolific.csv
+qualtrics.csv
+
+# Ignore Python virtual environment and system files
+src/venv/
+.DS_Store
+__pycache__/
+*.pyc

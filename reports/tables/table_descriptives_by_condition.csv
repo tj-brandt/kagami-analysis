@@ -1,0 +1,9 @@
+,,Perceived Anthropomorphism,Perceived Anthropomorphism,Perceived Personalization,Perceived Personalization,Trust,Trust,Rapport,Rapport,Social Presence,Social Presence,Engagement,Engagement,Satisfaction,Satisfaction
+,,mean,std,mean,std,mean,std,mean,std,mean,std,mean,std,mean,std
+avatar_type,lsm_type,,,,,,,,,,,,,,
+generated,adaptive,3.58,0.981,3.648,0.886,3.889,0.763,3.926,0.762,3.519,0.963,4.13,0.641,4.093,0.651
+generated,static,3.833,0.729,4.009,0.618,4.114,0.569,3.991,0.636,3.518,0.92,4.339,0.598,4.304,0.595
+none,adaptive,3.531,1.067,3.907,0.791,3.97,0.805,3.815,0.819,3.296,1.131,4.102,0.648,4.074,0.588
+none,static,3.744,0.738,3.885,0.641,3.908,0.714,3.798,0.689,3.24,0.669,3.962,0.786,4.106,0.791
+premade,adaptive,3.247,0.913,3.528,0.934,3.452,0.934,3.25,0.917,2.731,1.122,3.667,0.797,3.63,0.845
+premade,static,3.753,0.855,3.898,0.577,3.956,0.603,3.806,0.698,3.454,0.988,4.176,0.623,4.241,0.618
